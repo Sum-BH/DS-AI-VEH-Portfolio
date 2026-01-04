@@ -1,0 +1,19 @@
+# Global Python
+__pycache__/
+.ipynb_checkpoints/
+.env
+
+# Data and outputs
+data/**/*
+!data/**/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Power BI
+*.pbix.tmp
+*.pbi

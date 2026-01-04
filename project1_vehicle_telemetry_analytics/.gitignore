@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# Data (keep structure only)
+data/incoming_telemetry/*
+data/raw_telemetry_csv/*
+data/processed_telemetry/*
+!data/**/.gitkeep
+
+# Power BI autosave
+*.pbix.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/**/*
+!data/**/.gitkeep
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Power BI cache
+*.pbix.tmp
+*.pbi
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.env
